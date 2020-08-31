@@ -280,12 +280,14 @@ nav li {
   font-weight: bold;
   padding: 10px 20px;
   border: 1px solid #333333;
+  border-radius: 5px;
 }
 
 .price-btn a:hover {
   background-color: #180377;
   color: #ffffff;
   text-decoration: none;
+  transition: all 0.5s;
 }
 
 /* ---------- profile ---------- */
