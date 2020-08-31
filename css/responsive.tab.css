@@ -1,0 +1,171 @@
+@media screen and (max-width:1000px){
+  /* ----------- all ---------- */
+  .container {
+    width: 500px;
+  }
+
+  /* ---------- main ---------- */
+.top {
+  height: 500px;
+}
+
+/* ---------- section ---------- */
+/* ---------- works ---------- */
+.works {
+  height: 800px;
+}
+
+.section-title h1 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* ---------- work-list ---------- */
+.work-lists {
+  padding-left: 80px;
+}
+
+.work-list {
+  float: left;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.work-item img {
+  width: 150px;
+}
+
+.item-content {
+  width: 80%;
+  display: block;
+}
+
+.item-active {
+  display: none;
+}
+
+.item-title {
+  font-size: 12px;
+}
+
+.item-txt {
+  font-size: 10px;
+}
+
+/* ---------- work-content ---------- */
+.work_inner {
+  left: 10%;
+}
+
+.content-image img {
+  width: 300px;
+}
+
+/* ---------- skill ---------- */
+.skill {
+  height: 400px;
+}
+
+.skill-images img {
+  width: 120px;
+  margin: 0 20px;
+}
+
+.skill-images img.jquery {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+/* ---------- service ---------- */
+.service {
+  height: 650px; 
+}
+
+.service-lists {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.service-item {
+  width: 100%;
+  margin: 10px;
+  padding: 20px;
+}
+
+.service-item h2 {
+  padding-left: 0px;
+  font-size: 20px;
+}
+
+/* ---------- profile ---------- */
+.profile {
+  height: 450px; 
+}
+
+
+.profile-txt {
+  padding-left: 10px;
+  width: 80%;
+}
+
+.profile-txt p {
+  font-size: 18px;
+}
+
+/* ---------- contact ---------- */
+.contact {
+  height: 300px; 
+}
+
+/* ---------- footer ---------- */
+.footer ul {
+  padding-left: 0px;
+}
+
+.footer a {
+  font-size: 14px;
+}
+
+
+/* --------- price ---------- */
+/* --------- section ---------- */
+.price_wrap {
+  height: 2200px; 
+}
+
+.lpplan_lists,.hpplan_lists {
+  flex-direction: column;
+  text-align: center;
+}
+
+.lpplan_lists li,.hpplan_lists li {
+  font-size: 11px;
+}
+
+.lpplan_lists h3,.hpplan_lists h3 {
+  font-size: 18px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.light_box {
+  padding: 15px 10px;
+  margin-right: 0px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.basic_box {
+  padding: 15px 10px;
+  margin-right: 0px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.special_box {
+  padding: 15px 10px;
+  width: 100%;
+}
+
+
+}

@@ -1,0 +1,197 @@
+@media screen and (max-width:750px){
+  /* ----------- all ---------- */
+  .container {
+    width: 320px;
+  }
+
+  /* ---------- header---------- */
+  #close p {
+    font-size: 18px;
+  }
+
+  #close span {
+  margin-left: 0px;
+}
+
+nav {
+  width: 150px;
+}
+
+nav li {
+  padding-top: 30px;
+  padding-right: 20px;
+  font-size: 14px;
+}
+
+
+  /* ---------- main ---------- */
+.top {
+  height: 500px;
+}
+
+/* ---------- section ---------- */
+/* ---------- works ---------- */
+.works {
+  height: 750px;
+}
+
+.section-title h1 {
+  padding-bottom: 30px;
+}
+
+/* ---------- work-list ---------- */
+.work-lists {
+  padding-left: 30px;
+}
+
+.work-item img {
+  width: 130px;
+}
+
+/* ---------- work-content ---------- */
+.work_inner {
+  padding: 10px;
+  position: absolute;
+  top: 20%;
+  left: 5%;
+}
+
+#close_content span {
+  font-size: 15px;
+}
+
+.content-txt p {
+  padding-bottom: 10px;
+  font-size: 10px;
+}
+
+.content-title p {
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.content-image {
+  padding-bottom: 20px;
+}
+
+.content-image img {
+  width: 200px;
+}
+
+/* ---------- skill ---------- */
+.skill-images {
+  padding: 0 10%;
+}
+
+.skill-images img {
+  width: 80px;
+  margin: 10px 20px;
+}
+
+.skill-images img.jquery {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+/* ---------- service ---------- */
+.service {
+  height: 800px; 
+}
+
+.service-item {
+  width: 95%;
+}
+
+/* ---------- profile ---------- */
+.profile {
+  height: 450px; 
+}
+
+.profile-list {
+  flex-direction: column;
+}
+
+.prodile-icon {
+  text-align: center;
+}
+
+.prodile-icon img {
+  width: 150px;
+  margin-top: 0px;
+}
+
+.profile-txt {
+  padding-top: 10px;
+  padding-left: 30px;
+  width: 100%;
+}
+
+.profile-txt p {
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+/* ---------- contact ---------- */
+.contact-txt {
+  font-size: 12px;
+}
+
+/* ---------- footer ---------- */
+.footer li {
+  padding: 0 8px;
+}
+
+.footer a {
+  font-size: 11px;
+}
+
+/* --------- price ---------- */
+/* ---------- main --------- */
+.price_top {
+  padding-top: 30px;
+}
+
+.price_top h1 {
+  font-size: 24px;
+}
+
+/* --------- section ---------- */
+.price_wrap {
+  height: 2200px; 
+}
+
+.price_title h1 {
+  font-size: 20px;
+}
+
+.price_title p {
+  padding: 0 5px;
+}
+
+.price_wrap p {
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+
+.price_wrap h2 {
+  font-size: 22px;
+}
+
+.lpplan_lists h3,.hpplan_lists h3 {
+  font-size: 15px;
+}
+
+.light_box {
+  margin: 0 5px 15px 0;
+}
+
+.basic_box {
+  padding: 15px 10px;
+  margin: 0 5px 15px 0;
+}
+
+.special_box {
+  margin: 0 5px 15px 0;
+}
+
+}

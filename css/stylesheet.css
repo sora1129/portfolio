@@ -1,0 +1,466 @@
+/* ----------- all ---------- */
+* {
+  font-family: "Dosis","メイリオ", "Meiryo","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック", "cursive";
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; 
+}
+
+li {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1,h2,h3,h4,p,a,li {
+  letter-spacing: 1.3px;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* ---------- header---------- */
+.header {
+  color: #5f5d5d;
+}
+
+.menu-icon {
+  position: fixed;
+  top: 30px;
+  right: 15px;
+}
+
+.menu-icon:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.menu-icon h2 {
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.menu-icon span {
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+#close p {
+  font-size: 20px;
+}
+
+#close span {
+  border: 1px solid #333333;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-left: 70px;
+}
+
+#close span:hover {
+  color: #ffffff;
+  background-color: #333333;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  right: -400px;
+  height: 100%;
+  width: 250px;
+  background-color: #99d8f5;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+nav li {
+  padding-top: 30px;
+  padding-right: 20px;
+  font-size: 14px;
+}
+
+/* ---------- main ---------- */
+.top {
+  height: 550px;
+  background-image: url(../images/top_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.top h1 {
+  font-weight: 500;
+}
+
+.top p {
+  color: #5f5d5d;
+}
+
+/* ---------- section ---------- */
+/* ---------- works ---------- */
+.works {
+  height: 500px;
+}
+
+.section-title h1 {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+/* ---------- work-list ---------- */
+.work-list{
+  float: left;
+  width: 20%;
+  margin-bottom: 50px;
+}
+
+.work-item img {
+  width: 180px;
+}
+
+.work-item:hover {
+  cursor: pointer;
+}
+
+.item-content {
+  width: 80%;
+  display: none;
+}
+
+.item-active {
+  display: block;
+}
+
+.item-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #5f5d5d;
+}
+
+.item-txt {
+  font-size: 12px;
+  color: #5f5d5d;
+}
+
+/* ---------- work-content ---------- */
+.work_box {
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  display: none;
+}
+
+.work_inner {
+  background-color: #9eaac4;
+  border-radius: 20px;
+  padding: 30px 80px;
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  z-index: 100;
+  text-align: center;
+}
+
+.modal_bg {
+  background-color: rgba(30, 30, 30, 0.9);
+  height: 100%;
+  width: 100%;
+}
+
+#close_content {
+  text-align: right;
+}
+
+#close_content span {
+  font-size: 20px;
+  border: 1px solid #333333;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+#close_content span:hover {
+  color: #ffffff;
+  background-color: #333333;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.content-txt p {
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.content-title p {
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+
+.content-image {
+  padding-bottom: 40px;
+}
+
+.content-image img {
+  width: 500px;
+}
+
+/* ---------- skill ---------- */
+.skill {
+  height: 500px;
+  background-color: #e5e2e2;
+}
+
+.skill-images img {
+  width: 180px;
+  float: left;
+  margin: 0 70px;
+}
+
+.skill-images img.jquery {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+/* ---------- service ---------- */
+.service {
+  height: 530px; 
+}
+
+.service-lists {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.service-item {
+  width: 25%;
+  margin: 0 20px;
+  background-color: #5f5d5d;
+  padding: 40px 20px;
+  border-radius: 10px;
+}
+
+.service-item h2 {
+  font-weight: normal;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  font-size: 28px;
+}
+
+.service-item p {
+  font-size: 14px;
+}
+
+.price-btn {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.price-btn a {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 1px solid #333333;
+}
+
+.price-btn a:hover {
+  background-color: #180377;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* ---------- profile ---------- */
+.profile {
+  height: 500px; 
+  background-color: #e5e2e2;
+}
+
+.profile-list {
+  display: flex;
+  justify-content: center;
+  color: #5f5d5d;
+}
+
+.prodile-icon img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.profile-txt {
+  padding-top: 30px;
+  padding-left: 40px;
+  width: 60%;
+}
+
+.profile-txt p {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+/* ---------- contact ---------- */
+.contact {
+  height: 400px; 
+}
+
+.contact-txt {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.form {
+  text-align: center;
+}
+
+.form span {
+  font-size: 38px;
+  color: #ffffff;
+  background-color: #1748b3;
+  padding: 20px;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+
+.form a:hover {
+  opacity: 0.9;
+  transition: 0.5s;
+}
+
+/* ---------- footer ---------- */
+.footer {
+  height: 150px;
+  background-color: #333333;
+  text-align: center;
+}
+
+.footer ul {
+  padding-top: 40px;
+  padding-left: 230px;
+}
+
+.footer li {
+  float: left;
+  padding: 0 20px;
+}
+
+.footer a {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.copyright {
+  padding-top: 60px;
+}
+
+.copyright p {
+  font-size: 10px;
+  color: #747272;
+}
+
+/* --------- price ---------- */
+/* ---------- main --------- */
+.price_top {
+  height: 150px;
+  background-image: url(../images/top_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.price_top h1 {
+  font-weight: 500;
+}
+
+.price_top p {
+  color: #5f5d5d;
+}
+
+/* --------- section ---------- */
+.price_wrap {
+  height: 1100px; 
+}
+
+.price_title h1 {
+  margin-top: 50px;
+  padding: 5px 0;
+  background-color: #5f5d5d;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 26px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.price_wrap p {
+  font-size: 13px;
+  padding-bottom: 30px;
+}
+
+.price_wrap h2 {
+  color: #5f5d5d;
+  font-size: 26px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.lpplan_lists,.hpplan_lists {
+  display: flex;
+  justify-content: center;
+}
+
+.lpplan_lists li,.hpplan_lists li {
+  font-size: 11px;
+}
+
+.lpplan_lists h3,.hpplan_lists h3 {
+  font-size: 18px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.light_box {
+  background-color: #747272;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 25px 10px;
+  margin-right: 10px;
+  width: 30%;
+}
+
+.basic_box {
+  background-color: #044b8d;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 25px 10px;
+  margin-right: 10px;
+  width: 35%;
+}
+
+.special_box {
+  background-color: #ad6236;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 25px 10px;
+  width: 35%;
+}
